@@ -9,21 +9,59 @@ const View = styled.section`
 export default function Section() {
   return (
     <View>
-      <h1>Portfólio</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor
-        est, eleifend ac commodo sed, feugiat porta neque. Phasellus auctor
-        mollis velit, ut pretium orci lobortis et. Vivamus quis ex et turpis
-        accumsan commodo. Suspendisse non tellus in libero posuere lacinia.
-        Donec semper convallis justo. Suspendisse malesuada tempor elit, eu
-        porta sapien semper nec. Suspendisse mattis in purus in rutrum. Sed a
-        ligula vel nibh dapibus imperdiet. Nullam sodales dolor risus, non
-        ullamcorper odio rhoncus nec. In magna neque, imperdiet quis nibh vitae,
-        mollis tempor nulla. Integer lacus nibh, malesuada at vulputate id,
-        hendrerit a augue. Morbi ultrices lectus urna, sit amet consectetur diam
-        laoreet sed. Nunc semper nulla at est commodo, bibendum varius sapien
-        commodo. Nulla maximus odio diam, vel interdum velit facilisis vitae.
-      </p>
+      <div className="tab-content" id="nav-tabContent">
+        <div
+          className="tab-pane fade show active"
+          id="nav-portfolio"
+          role="tabpanel"
+          aria-labelledby="nav-portfolio-tab"
+        >
+          <h1>Portfólio</h1>
+          Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure
+          officia enim reprehenderit. Magna duis labore cillum sint adipisicing
+          exercitation ipsum. Nostrud ut anim non exercitation velit laboris
+          fugiat cupidatat. Commodo esse dolore fugiat sint velit ullamco magna
+          consequat voluptate minim amet aliquip ipsum aute laboris nisi. Labore
+          labore veniam irure irure ipsum pariatur mollit magna in cupidatat
+          dolore magna irure esse tempor ad mollit. Dolore commodo nulla minim
+          amet ipsum officia consectetur amet ullamco voluptate nisi commodo ea
+          sit eu.
+        </div>
+        <div
+          className="tab-pane fade"
+          id="nav-certificate"
+          role="tabpanel"
+          aria-labelledby="nav-certificate-tab"
+        >
+          <h1>Certificados</h1>
+          Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure
+          officia enim reprehenderit. Magna duis labore cillum sint adipisicing
+          exercitation ipsum. Nostrud ut anim non exercitation velit laboris
+          fugiat cupidatat. Commodo esse dolore fugiat sint velit ullamco magna
+          consequat voluptate minim amet aliquip ipsum aute laboris nisi. Labore
+          labore veniam irure irure ipsum pariatur mollit magna in cupidatat
+          dolore magna irure esse tempor ad mollit. Dolore commodo nulla minim
+          amet ipsum officia consectetur amet ullamco voluptate nisi commodo ea
+          sit eu.
+        </div>
+        <div
+          className="tab-pane fade"
+          id="nav-about"
+          role="tabpanel"
+          aria-labelledby="nav-about-tab"
+        >
+          <h1>Sobre</h1>
+          Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure
+          officia enim reprehenderit. Magna duis labore cillum sint adipisicing
+          exercitation ipsum. Nostrud ut anim non exercitation velit laboris
+          fugiat cupidatat. Commodo esse dolore fugiat sint velit ullamco magna
+          consequat voluptate minim amet aliquip ipsum aute laboris nisi. Labore
+          labore veniam irure irure ipsum pariatur mollit magna in cupidatat
+          dolore magna irure esse tempor ad mollit. Dolore commodo nulla minim
+          amet ipsum officia consectetur amet ullamco voluptate nisi commodo ea
+          sit eu.
+        </div>
+      </div>
     </View>
   );
 }

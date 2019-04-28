@@ -10,5 +10,5 @@ const View = styled.footer`
 `;
 
 export default function Footer() {
-  return <View>Copyright © Scal Dev 2019</View>;
+  return <View>Copyright © Ascal Dev 2019</View>;
 }
