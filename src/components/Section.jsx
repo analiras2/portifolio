@@ -1,9 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
+import About from './About';
 
 const View = styled.section`
   flex: 1;
   padding: 1em;
+`;
+
+const Title = styled.p`
+  font-size: 2.5em;
+  font-family: 'Quicksand';
+  font-weight: bold;
 `;
 
 export default function Section() {
@@ -16,7 +23,7 @@ export default function Section() {
           role="tabpanel"
           aria-labelledby="nav-portfolio-tab"
         >
-          <h1>Portfólio</h1>
+          <Title>Portfólio</Title>
           Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure
           officia enim reprehenderit. Magna duis labore cillum sint adipisicing
           exercitation ipsum. Nostrud ut anim non exercitation velit laboris
@@ -29,11 +36,11 @@ export default function Section() {
         </div>
         <div
           className="tab-pane fade"
-          id="nav-certificate"
+          id="nav-curriculum"
           role="tabpanel"
-          aria-labelledby="nav-certificate-tab"
+          aria-labelledby="nav-curriculum-tab"
         >
-          <h1>Certificados</h1>
+          <Title>Currículo</Title>
           Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure
           officia enim reprehenderit. Magna duis labore cillum sint adipisicing
           exercitation ipsum. Nostrud ut anim non exercitation velit laboris
@@ -50,16 +57,7 @@ export default function Section() {
           role="tabpanel"
           aria-labelledby="nav-about-tab"
         >
-          <h1>Sobre</h1>
-          Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure
-          officia enim reprehenderit. Magna duis labore cillum sint adipisicing
-          exercitation ipsum. Nostrud ut anim non exercitation velit laboris
-          fugiat cupidatat. Commodo esse dolore fugiat sint velit ullamco magna
-          consequat voluptate minim amet aliquip ipsum aute laboris nisi. Labore
-          labore veniam irure irure ipsum pariatur mollit magna in cupidatat
-          dolore magna irure esse tempor ad mollit. Dolore commodo nulla minim
-          amet ipsum officia consectetur amet ullamco voluptate nisi commodo ea
-          sit eu.
+          <About />
         </div>
       </div>
     </View>

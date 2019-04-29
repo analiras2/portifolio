@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import { colors } from '../res/colors';
 
 const View = styled.footer`
-  background-color: #24b3a9;
-  color: black;
-  font-size: 1.5vmin;
-  padding: 2em;
+  background-color: ${colors.primary};
+  color: ${colors.lightText};
+  font-size: 1em;
+  padding: 1em;
   text-align: center;
   min-height: 5vh;
 `;

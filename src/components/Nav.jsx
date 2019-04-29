@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import { colors } from '../res/colors';
 
 const View = styled.nav`
   text-align: center;
 `;
 
 const Link = styled.a`
-  color: #06657d;
+  color: ${colors.secondary};
 `;
 
 export default function Nav() {
@@ -26,14 +27,14 @@ export default function Nav() {
         </Link>
         <Link
           className="nav-item nav-link"
-          id="nav-certificate-tab"
+          id="nav-curriculum-tab"
           data-toggle="tab"
-          href="#nav-certificate"
+          href="#nav-curriculum"
           role="tab"
-          aria-controls="nav-certificate"
+          aria-controls="nav-curriculum"
           aria-selected="false"
         >
-          Certificados
+          Currículo
         </Link>
         <Link
           className="nav-item nav-link"
