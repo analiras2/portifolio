@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Nav from '../components/Nav';
-import Section from '../components/Section';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Section from './components/section/Section';
 
 function App() {
   return (
