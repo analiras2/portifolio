@@ -5,16 +5,21 @@ const View = styled.header`
   display: flex;
   flex-direction: column;
   min-height: 20vh;
-  font-size: 2vmin;
-  color: #282c34;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(#24b3a9, white);
+  padding: 4%;
+  font-size: 2em;
+  color: #06657d;
+`;
+
+const Title = styled.p`
+  font-size: 2em;
 `;
 
 export default function Header() {
   return (
     <View>
-      <h1>Analira Scalabrini</h1>
+      <Title>Analira Scalabrini</Title>
       <p>Desenvolvedora Mobile</p>
     </View>
   );

@@ -5,11 +5,15 @@ const View = styled.nav`
   text-align: center;
 `;
 
+const Link = styled.a`
+  color: #06657d;
+`;
+
 export default function Nav() {
   return (
     <View>
       <div className="nav nav-tabs" id="nav-tab" role="tablist">
-        <a
+        <Link
           className="nav-item nav-link active"
           id="nav-portfolio-tab"
           data-toggle="tab"
@@ -19,8 +23,8 @@ export default function Nav() {
           aria-selected="true"
         >
           Portfólio
-        </a>
-        <a
+        </Link>
+        <Link
           className="nav-item nav-link"
           id="nav-certificate-tab"
           data-toggle="tab"
@@ -30,8 +34,8 @@ export default function Nav() {
           aria-selected="false"
         >
           Certificados
-        </a>
-        <a
+        </Link>
+        <Link
           className="nav-item nav-link"
           id="nav-about-tab"
           data-toggle="tab"
@@ -41,7 +45,7 @@ export default function Nav() {
           aria-selected="false"
         >
           Sobre
-        </a>
+        </Link>
       </div>
     </View>
   );
