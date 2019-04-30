@@ -1,8 +1,7 @@
 export default [
   {
     title: 'Yon',
-    details:
-      'O aplicativo Yon permite o acesso aos dados de rastreamento. Através desse aplicativo você poderá se conectar àquilo que você ama.',
+    details: 'Trabalhei com as features YON BIKE, YON PET e YON BAG.',
     logo: 'yon.png',
     role: 'Desenvolvimento Android Nativo',
     date: 'Dezembro de 2014',
@@ -10,8 +9,7 @@ export default [
   },
   {
     title: 'Um Sábado Qualquer - Tirinhas',
-    details:
-      'Um Sábado Qualquer é um blog de tirinhas criadas por Carlos Ruas com atualizações diárias.',
+    details: 'Participei de todo o desenvolviemnto do aplicativo.',
     logo: 'um-sabado-qualquer.png',
     role: 'Desenvolvimento Android Nativo',
     date: 'Março de 2015',
@@ -20,8 +18,7 @@ export default [
   },
   {
     title: 'Me Salva!',
-    details:
-      'Estude para o ENEM 2019 e Vestibulares com o app de estudos com as melhores aulas e exercícios com resolução passo a passo para você estudar online e offline.',
+    details: 'Participei de todo o desenvolviemnto do aplicativo.',
     logo: 'me-salva.png',
     role: 'Desenvolvimento Android Nativo',
     date: 'Setembro de 2015',
@@ -30,7 +27,7 @@ export default [
   {
     title: 'Ganhe na Tela',
     details:
-      'O Ganhe na Tela é a forma mais fácil de ganhar créditos de todas as operadoras para seu celular pré-pago.',
+      'Trabalhei com melhorias do aplicativo uma delas sendo a parte da sobreposição dos anúncios e implantação do novo layout.',
     logo: 'ganhe-na-tela.png',
     role: 'Desenvolvimento Android Nativo',
     date: 'Outubro 2015',
@@ -39,7 +36,7 @@ export default [
   {
     title: 'Rastrovet',
     details:
-      'A Rastrovet é uma empresa especializada no controle de bovinos, que busca na inovação, facilitar a vida do produtor rural e de seus colaboradores, acompanhando e orientando quanto ao uso dos equipamentos e dos softwares.',
+      'Trabalhei com melhorias do aplicativo android, fiz a parte de agrupamento de lote, busca por raça, entre outros.',
     logo: 'rastrovet.png',
     role: 'Desenvolvimento Android Nativo',
     date: 'Fevereiro de 2016',
@@ -47,8 +44,7 @@ export default [
   },
   {
     title: 'eBox Mobile',
-    details:
-      'O aplicativo eBox Mobile faz parte das soluções ECM / GED oferecidos atualmente pela eBox.',
+    details: 'Participei de todo o desenvolviemnto do aplicativo.',
     logo: 'ebox.png',
     role: 'Desenvolvimento Android Nativo',
     date: 'Março de 2017',
@@ -58,7 +54,7 @@ export default [
   {
     title: 'Bikxi',
     details:
-      'O primeiro sistema de transporte compartilhado sustentável do mundo!',
+      'Participei de 2/3 do desenvolviemnto tanto do aplicativo do passageiro quando do piloto. Aplicativo desenvolvido todo com Kotlin.',
     logo: 'bikxi.png',
     role: 'Desenvolvimento Android Nativo',
     date: 'Julho de 2017',
@@ -67,7 +63,7 @@ export default [
   {
     title: 'SIV',
     details:
-      'Gerencie de forma rápida suas vendas, com o SIV você além de automatizar seu ponto de venda, estará tornando mais veloz ainda o fluxo de venda.',
+      'Quando cheguei na empresa o projeto já existia, fiz a implementação de novas feature, antes o app só tinha a parte de vendas, como a versão do android era muito antiga sugeri para a empresa uma refatoração de todo o projeto e atualização do layout do aplicativo com isso fiz a VERSÃO 2.0 que foi lançada em Fevareiro de 2019.',
     logo: 'siv.png',
     role: 'Desenvolvimento Android & IOS (React Native)',
     date: 'Fevereiro de 2018 até o momento',
@@ -75,8 +71,7 @@ export default [
   },
   {
     title: 'Novo TIM Smart',
-    details:
-      'Com cadastro das vendas é possível extrair relatórios em tempo real onde o lojista consegue melhor sua tomada de decisão.',
+    details: 'Participei de todo o desenvolviemnto do aplicativo.',
     logo: 'tim.png',
     role: 'Desenvolvimento Android & IOS (React Native)',
     date: 'Fevereiro de 2019 até o momento',
