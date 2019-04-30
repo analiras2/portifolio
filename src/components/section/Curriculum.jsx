@@ -20,8 +20,8 @@ const headerList = () => (
     <li>Desenvolvimento de Softwares Mobile Android / IOS com React Native.</li>
     <li>Publicação nas loajas App Store e Google Play.</li>
     <li>
-      Exercito a facilitação de cerimônias no processo de desenvolvimento ágil
-      de software.
+      Exerço a facilitação de cerimônias no processo de desenvolvimento ágil de
+      software.
     </li>
     <li>
       Relacionamento com clientes no desenvolvimento e suporte de software.
