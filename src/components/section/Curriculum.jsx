@@ -1,13 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
-const Container = styled.div`
-  padding: 2em 3em;
-
-  @media (max-width: 700px) {
-    padding: 1em;
-  }
-`;
+import { Background, SectionTitle, SectionContainer } from '../../res/styles';
 
 const Title = styled.p`
   font-size: 2em;
@@ -72,16 +65,16 @@ const experience = () => (
 
 export default function Curriculum() {
   return (
-    <div className="p-1">
-      <p className="Title">Currículo</p>
-      <Container>
+    <Background>
+      <SectionTitle>Currículo</SectionTitle>
+      <SectionContainer>
         {headerList()}
         {experience()}
         <div className="d-flex flex-column align-items-end m-2">
           <p>Para mais informções visite meu</p>
           <a href="https://www.linkedin.com/in/analirascalabrini/">Linkedin</a>
         </div>
-      </Container>
-    </div>
+      </SectionContainer>
+    </Background>
   );
 }

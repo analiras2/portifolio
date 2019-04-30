@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Background, SectionTitle, SectionContainer } from '../../res/styles';
 import analira from '../../res/img/eu.jpeg';
 
 const Avatar = styled.div`
@@ -15,22 +16,20 @@ const Description = styled.p`
   font-family: 'Quicksand';
   font-size: 1em;
   letter-spacing: 0.1em;
-  padding: 3em;
 
   @media (max-width: 700px) {
     text-align: justify;
     letter-spacing: 0;
-    padding: 0;
   }
 `;
 
 export default function About() {
   return (
-    <div className="p-1">
-      <p className="Title">Sobre</p>
-      <div className="d-flex flex-column align-items-center pl-4 pr-4 text-center">
+    <Background>
+      <SectionTitle>Sobre</SectionTitle>
+      <SectionContainer className="d-flex flex-column align-items-center text-center">
         <Avatar className="shadow" />
-        <p className="Title my-5">Analira Scalabrini</p>
+        <SectionTitle className="my-4">Analira Scalabrini</SectionTitle>
         <Description>
           Sou programadora mobile(<b>Android & IOS</b>). Iniciei minha carreira
           em 2014 em Campo Grande - MS com desenvolvimento de aplicativos
@@ -47,7 +46,7 @@ export default function About() {
           atender da melhor forma a proposta do cliente, utilizando código limpo
           e eficaz.
         </Description>
-      </div>
-    </div>
+      </SectionContainer>
+    </Background>
   );
 }

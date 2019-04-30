@@ -9,7 +9,7 @@ export default [
   },
   {
     title: 'Um Sábado Qualquer - Tirinhas',
-    details: 'Participei de todo o desenvolviemnto do aplicativo.',
+    details: 'Participei de todo o desenvolvimento do aplicativo.',
     logo: 'um-sabado-qualquer.png',
     role: 'Desenvolvimento Android Nativo',
     date: 'Março de 2015',
@@ -18,7 +18,7 @@ export default [
   },
   {
     title: 'Me Salva!',
-    details: 'Participei de todo o desenvolviemnto do aplicativo.',
+    details: 'Participei de todo o desenvolvimento do aplicativo.',
     logo: 'me-salva.png',
     role: 'Desenvolvimento Android Nativo',
     date: 'Setembro de 2015',
@@ -30,8 +30,17 @@ export default [
       'Trabalhei com melhorias do aplicativo uma delas sendo a parte da sobreposição dos anúncios e implantação do novo layout.',
     logo: 'ganhe-na-tela.png',
     role: 'Desenvolvimento Android Nativo',
-    date: 'Outubro 2015',
+    date: 'Outubro de 2015',
     link: 'https://play.google.com/store/apps/details?id=com.earncents',
+  },
+  {
+    title: 'Beblue',
+    details: 'Trabalhei com melhorias do aplicativo e resolução de bugs.',
+    logo: 'beblue.png',
+    role: 'Desenvolvimento Android Nativo',
+    date: 'Janeiro de 2016',
+    link:
+      'https://play.google.com/store/apps/details?id=br.com.beblue&hl=pt_BR',
   },
   {
     title: 'Rastrovet',
@@ -44,7 +53,7 @@ export default [
   },
   {
     title: 'eBox Mobile',
-    details: 'Participei de todo o desenvolviemnto do aplicativo.',
+    details: 'Participei de todo o desenvolvimento do aplicativo.',
     logo: 'ebox.png',
     role: 'Desenvolvimento Android Nativo',
     date: 'Março de 2017',
@@ -54,7 +63,7 @@ export default [
   {
     title: 'Bikxi',
     details:
-      'Participei de 2/3 do desenvolviemnto tanto do aplicativo do passageiro quando do piloto. Aplicativo desenvolvido todo com Kotlin.',
+      'Participei de 2/3 do desenvolvimento tanto do aplicativo do passageiro quanto do piloto. Aplicativo desenvolvido todo com Kotlin.',
     logo: 'bikxi.png',
     role: 'Desenvolvimento Android Nativo',
     date: 'Julho de 2017',
@@ -71,7 +80,7 @@ export default [
   },
   {
     title: 'Novo TIM Smart',
-    details: 'Participei de todo o desenvolviemnto do aplicativo.',
+    details: 'Participei de todo o desenvolvimento do aplicativo.',
     logo: 'tim.png',
     role: 'Desenvolvimento Android & IOS (React Native)',
     date: 'Fevereiro de 2019 até o momento',
