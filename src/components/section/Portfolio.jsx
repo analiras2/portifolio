@@ -1,20 +1,35 @@
 import React from 'react';
+import ProjectItem from '../ProjectItem';
+import projects from '../../models/projects';
+
+import styled from 'styled-components';
+
+const Container = styled.div`
+  padding: 3em 0;
+
+  @media (max-width: 700px) {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+`;
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
+`;
 
 export default function Portfolio() {
   return (
     <div className="p-1">
       <p className="Title">Portfólio</p>
-      <p>
-        Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure
-        officia enim reprehenderit. Magna duis labore cillum sint adipisicing
-        exercitation ipsum. Nostrud ut anim non exercitation velit laboris
-        fugiat cupidatat. Commodo esse dolore fugiat sint velit ullamco magna
-        consequat voluptate minim amet aliquip ipsum aute laboris nisi. Labore
-        labore veniam irure irure ipsum pariatur mollit magna in cupidatat
-        dolore magna irure esse tempor ad mollit. Dolore commodo nulla minim
-        amet ipsum officia consectetur amet ullamco voluptate nisi commodo ea
-        sit eu.
-      </p>
+      <Container>
+        <Grid>
+          {projects.reverse().map(project => (
+            <ProjectItem key={project.title} project={project} />
+          ))}
+        </Grid>
+      </Container>
     </div>
   );
 }

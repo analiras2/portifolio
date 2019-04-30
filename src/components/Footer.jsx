@@ -7,7 +7,7 @@ const View = styled.footer`
   flex-direction: column;
   background-color: ${colors.primary};
   color: ${colors.lightText};
-  font-size: 0.8em;
+  font-size: 1em;
   padding: 1em;
   min-height: 5vh;
 `;
@@ -35,11 +35,11 @@ const Contact = () => {
 const Social = () => {
   return (
     <div className="d-flex justify-content-around mt-4">
-      <Link href="#">
+      <Link href="https://www.linkedin.com/in/analirascalabrini/">
         <ion-icon size="large" name="logo-linkedin" />
       </Link>
       <div className="mx-2" />
-      <Link href="#">
+      <Link href="https://github.com/analiras2">
         <ion-icon size="large" name="logo-github" />
       </Link>
     </div>

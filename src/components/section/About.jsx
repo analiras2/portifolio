@@ -32,16 +32,16 @@ export default function About() {
         <Avatar className="shadow" />
         <p className="Title my-5">Analira Scalabrini</p>
         <Description>
-          Sou programadora mobile(<b>Android & IOS</b>) iniciei minha carreira
+          Sou programadora mobile(<b>Android & IOS</b>). Iniciei minha carreira
           em 2014 em Campo Grande - MS com desenvolvimento de aplicativos
           nativos Android(<b>Java & Kotlin</b>), trabalhei com{' '}
           <i>metodologia ágil</i> e foi onde estive envolvida em vários projetos
           e tive o privilégio de colaborar com excelentes pessoas e
           profissionais. Após três anos me mudei para São Paulo e trabalhei como
-          assessora para uma Startup, onde aprendi muito sobre{' '}
-          <i>empreendedorismo</i>, mesmo fora da área de programação continuei
-          estudando, só que com maior foco para parte Web. Em 2018 recebia a
-          proposta de voltar a trabalhar com mobile só que com{' '}
+          assessora para uma Startup, onde aprendi sobre
+          <i>empreendedorismo</i>, mas mesmo fora da área de programação
+          continuei estudando, só que com maior foco para parte Web. Em 2018
+          recebia a proposta de voltar a trabalhar com mobile só que com{' '}
           <b>React Native</b>, aceitei o desafio e me encontrei no{' '}
           <b>JavaScript</b>. Sou uma pessoa que procuro sempre estar conectada a
           novas tendências tecnológicas, sempre buscando atender da melhor forma
